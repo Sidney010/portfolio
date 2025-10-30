@@ -112,6 +112,12 @@ main {
     justify-content: space-between;
     padding: 0px 20px;
 }
+@media screen and (max-width: 640px) {
+
+    .habilidades-icons{
+        flex-direction: column;
+    }
+}
 .card {
     gap: 20px;
     width: 420px;
