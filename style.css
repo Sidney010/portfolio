@@ -78,14 +78,14 @@ hr {
 
 main {
     padding: 20px 50px;
-    height: 2500px;
+    height: 2100px;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .stacks-tecnicas {
-    height: 20%;
+    height: 30%;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -131,7 +131,7 @@ main {
 
 @media screen and (max-width: 700px) {
     .stacks-tecnicas {
-        height: 33%;
+        height: 40%;
     }
 
     .habilidades-icons {
@@ -188,7 +188,7 @@ main {
 }
 
 .projetos {
-    height: 25%;
+    height: 35%;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -235,7 +235,7 @@ main {
 
 @media screen and (max-width: 700px) {
     .projetos {
-        height: 42%;
+        height: 50%;
     }
     .principais {
         gap: 24px;
@@ -297,7 +297,7 @@ li {
 }
 
 .experiencia {
-    height: 10%;
+    height: 2%;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -318,4 +318,20 @@ li {
 }
 .experiencia div span {
     font-size: 0.8rem;
+}
+footer {
+    padding: 20px 50px;
+    height: 200px;
+    width: 100%;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+footer img {
+    height: 30px;
+    width: 30px;
+}
+.linha {
+    display: flex;
+    gap: 12px;
 }
